@@ -7,7 +7,7 @@
     document.getElementsByTagName('head')[0].appendChild(link);
 })();
 
-fetch('/assets/header.html')
+fetch('/assets/js/header.html')
 .then(response => response.text())
 .then(html => {
     document.body.insertAdjacentHTML('afterbegin', html);
